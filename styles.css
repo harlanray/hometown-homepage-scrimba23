@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/kc.jpg");
+    background-size: cover;
+    border: 5px solid lightcoral;
+    padding: 70px 100px;
+    color: white;
+    text-shadow: 1px 1px 7px black;
+}
+
+#activity {
+    padding: 1px;
+    background: lightslategray;
+}
+
+.activity-box {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    width: 900px;
+    margin: auto;
+    padding: 60px 0;
+    color: lightblue;
+}
+
+.spots {  
+    width: 200px;
+}
+
+.cityscape {
+    width: 190px;
+    border-radius: 50%;
+}
+
+.visitkc {
+    background: lightslategray;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+h2 {
+    background: lightslategray;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+h3, h4 {
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.yourguide {
+    width: 425px;
+    margin: 30px auto;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    background: lightcoral;
+    border-bottom: 10px solid lightslategray;
+    border-radius: 8px;
+}
+
+.guide-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.profile {
+    width: 180px;
+    height: min-content;
+    border-radius: 8px;
+    margin: 25px 15px 25px 0;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.guide-head {
+    padding: 0px;
+    text-decoration: underline;
+}
